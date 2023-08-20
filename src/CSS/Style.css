@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow: hidden;
+}
+.navbar {
+    background-color: #00a682;
+    height: 20vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 750px;
+}
+
+.navbar ul li {
+    margin-left: 40px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #f0f2f5;
+}
+
+.home {
+    z-index: 999;
+    margin-top: 140px;
+    background-color: #e2e1dd;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    border-right: 1px solid #e6e9ec;
+    z-index: 999;
+    overflow-y: auto;
+    background-color: #fff;
+    height: 100vh;
+    margin-left: 3vw;
+    max-width: 30vw;
+    width: 30vw;
+}
+
+.right {
+        z-index: 999;
+        height: 100vh;
+        margin-right: 3vw;
+        background-size: cover;
+        max-width: 70vw;
+        width: 70vw;
+        background-image: url('https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg');
+}
+
+.chat {
+    margin: 2px 3px;
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid #e6e9ec;
+}
+
+.chat.active {
+    background-color: #f0f2f5;
+}
+
+.chat:hover {
+    background-color: #f0f2f5;
+}
+
+.chat img {
+    width: 12%;
+    margin: 8px 0 0 5px;
+}
+
+.chat-flex{
+    display: flex;
+    flex-direction: row;    
+}
+
+.chat-text {
+    margin-left: 10px;
+}
+
+.chat-text h5 {
+    margin: 15px 0 0 10px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+} 
+
+.input {
+    width:50%;
+    height: 7%;
+    border: white;
+    border-radius: 16px;
+    position: fixed;
+    bottom: 15px;
+    margin-left: 120px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-indent: 13px;
+}
+
+.input::placeholder {
+    padding-left: 13px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(#00a682, #46fbd4);
+}
