@@ -5,7 +5,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-flex">
-        <h2>WhatsApp - Marketplace Addon</h2>
+        <a href="/" target="_blank" rel="noopener noreferrer">
+          <h2>WhatsApp - Marketplace Addon</h2>
+        </a>  
         <ul>
           <li>
             <a href="https://linkedin.com/in/mohammed-puthawala" target="_blank" rel="noopener noreferrer">
